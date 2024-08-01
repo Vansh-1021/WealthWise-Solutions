@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<head>
+    <title>EMI Calculator</title>
+    <style>
+.container {
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: left;
+    padding: 20px;
+}
+
+.form {
+    margin-bottom: 20px;
+}
+
+input, button {
+    margin: 5px;
+    padding: 5px;
+}
+    
+    .button-container {
+    text-align: left;
+    margin-top: 30px;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #1f618d;
+}
+
+    </style>
+</head>
+<body>
+    <div class="button-container">
+        <a href="Why Budgeting Matters.html" class="button">Go Back</a>
+    </div>
+    <br>
+    <div class="container">
+        <h1>EMI Calculator</h1>
+        <div class="form">
+            <label for="loanAmount">Loan Amount:</label>
+            <input type="text" id="loanAmount" placeholder="Enter loan amount">
+            <br>
+            <label for="interestRate">Interest Rate (%):</label>
+            <input type="text" id="interestRate" placeholder="Enter interest rate">
+            <br>
+            <label for="loanTerm">Loan Term (months):</label>
+            <input type="text" id="loanTerm" placeholder="Enter loan term">
+            <br>
+            <button onclick="calculateEMI()">Calculate EMI</button>
+        </div>
+        <div id="result"></div>
+    </div>
+    <script src="js/EMI.js"></script>
+</body>
+</html>

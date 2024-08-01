@@ -1,0 +1,149 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+.navbar {
+    background-color: #3498db;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    width: 150;
+    height: 75px;
+
+}
+
+.nav-links a {
+    color: #ffffff;
+    text-decoration: none;
+    margin: 0 15px;
+    transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+    color: #1f618d; /* Darken the color on hover */
+}
+
+/* Existing CSS styles */
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.home-section {
+    background-color: #f9f9f9;
+    padding: 80px 0;
+    text-align: center;
+}
+
+.home-section h1 {
+    margin-bottom: 10px;
+}
+
+/* Existing CSS styles */
+/* Existing CSS styles for the navbar, body, and footer */
+
+.features {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    max-width: 1200px;
+    margin: 50px auto;
+}
+
+.feature {
+    text-align: center;
+    padding: 20px;
+    width: 20%;
+}
+
+.feature img {
+    width: 200px; /* Adjust the size of feature images */
+}
+
+.feature h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.feature p {
+    font-size: 14px;
+    color: #555;
+}
+
+.about-section {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 0 20px;
+}
+
+.button-container {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 0 10px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #1f618d;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+.reviews {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.review {
+    flex: 0 0 calc(33.33% - 20px); /* Adjust the width as needed */
+    background-color: #f9f9f9;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+.review img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.review p {
+    margin-bottom: 10px;
+}
+
+.review span {
+    font-style: italic;
+}
